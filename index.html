@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comentando Histórias</title>
+  </head>
+  <style>
+    body {
+      background: #00578d;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+
+    main {
+      text-align: center;
+      margin: auto auto;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      text-shadow: 3px 3px 5px #000;
+    }
+
+    h1::before, h1::after{
+        content: "";
+        display: block;
+        background: currentColor;
+        width: 260px;
+        height: 3px;
+        box-shadow: 3px 3px 5px #000;
+        border-radius: 5px;
+        margin: 10px 0px;
+    }
+  </style>
+  <body>
+    <main>
+      <h1>Comentando<br />Histórias</h1>
+    </main>
+  </body>
+</html>
